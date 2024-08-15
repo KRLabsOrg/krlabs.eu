@@ -1,1 +1,92 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KR Labs</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 18px;
+            color: #000;
+            background-color: #fff;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 50px;
+            box-sizing: border-box;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            color: #000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 20px;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 50vh;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .content {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .content h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        .content p {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KR Labs</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="content" id="about">
+        <h2>About Us</h2>
+        <p>We develop open-source AI frameworks. </p>
+    </section>
+
+    <section class="content" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@krlabs.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 KR Labs - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
+
